@@ -1,10 +1,9 @@
-print("""------------------------------------------------
-|                                                |
-|    05HelloWorld                                |
-|    Name : Mr Horan                             |
-|    Version : 01                                |
-|                                                |
- ------------------------------------------------""")
-
-for x in range(1,500):
-    print(x)
+print(" ------------------------------------------------")
+print("|                                                |")
+print("|    05HelloWorld                                |")
+print("|    Name : Menaal Hassan                        |")
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+for number in range(1,500):
+    print(number)
