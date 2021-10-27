@@ -50,7 +50,7 @@ while True:
             for i in range(500):
                 print(i)
         elif menu_option == '6':
-            subject = "whatever"
+            subject = "IST"
             my_input = ""
             while my_input != subject:
                 my_input = input("What is the name of this subject ")
