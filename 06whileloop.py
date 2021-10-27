@@ -1,7 +1,7 @@
 print(' -' + '-'*(46) + '-')
 print("|                                                |")
 print("|    06whileLoop                                 |")
-print("|    Name : Aditi                                |")
+print("|    Name : Menaal Hassan                        |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(' -' + '-'*(46) + '-')
