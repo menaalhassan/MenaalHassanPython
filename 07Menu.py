@@ -22,45 +22,93 @@ def print_menu():
 x. To Exit
     """)
 
+def option1():
+   print("Hello World")  
+
+def option2():
+    print("Hello World")
+    input("------> Program paused - press enter to continue")
+    print("Goodbye World")
+
+def option3(name):
+    print("Hello World")
+    input("What is your name ? ")
+    print("Goodbye " + name)  
+ 
+def option4(teacher_name):
+    print("Hello World")
+    input("Teacher's name (try Mr Horan) ")
+    print(teacher_name + " is an ok teacher")
+
+def option5():
+    print("Hello World") 
+    for i in range(500):
+        print(i)
+
+def option6():
+    print("Hello World") 
+    subject = "IST"
+    my_input = ""
+    while my_input != subject:
+        my_input = input("What is the name of this subject ")
+        if my_input == subject:
+            print("\nCongratulations!!")
+        else:
+            print("Not Correct - try again")
+
+def option7():
+    answer = input("What is your string? ")
+    for i in answer:
+        print(i)
+
+def option8():
+    answer = input("What is your string? ")
+    for i in answer:
+        print(i + '=' + str(ord(i)))
+
+def option9():
+     answer = input("What is your string? ")
+     encoded_str = ""
+     for i in answer:
+        encoded_char = chr(ord(i)+1)
+        print(i + '=' + encoded_char)
+        encoded_str += encoded_char
+        #encoded_str = encoded_str + encoded_char
+        print(encoded_str)
+
 while True:
     print_menu()
     menu_option = input("Enter an option ")
-    #options = ['1','2','3','4','5','6','7','8','9','x']
-    options = ['1','2','3','4','5','6','x']
+    valid_options = ['1','2','3','4','5','6','7','8','9','x']
     
     print("----Start of Output ---------------------------\n")
 
-    if menu_option in options:
+    if menu_option in valid_options:
         if menu_option.lower() == 'x': 
             sys.exit()
         elif menu_option == '1':
-            print("Hello World")
+            option1()
         elif menu_option == '2':
-            print("Hello World")
-            input("------> Program paused - press enter to continue")
-            print("Goodbye World")
+            option2()
         elif menu_option == '3':
-            print("Hello World\n")
-            name = input("What is your name ? ")
-            print("Goodbye " + name)
+            option3(name)
         elif menu_option == '4':
-            teacher_name = input("Teacher's name (try Mr Horan) ")
-            print(teacher_name + " is an ok teacher")
+           option4(teacher_name)
         elif menu_option == '5':
-            for i in range(500):
-                print(i)
+            option5()
         elif menu_option == '6':
-            subject = "IST"
-            my_input = ""
-            while my_input != subject:
-                my_input = input("What is the name of this subject ")
-                if my_input == subject:
-                    print("\nCongratulations!!")
-                else:
-                    print("Not Correct - try again")
+            option6()
+        elif menu_option == '7':
+            option7()
+        elif menu_option == '8':
+            option8()
+        elif menu_option == '9':
+            option9()
     else:
         print("invalid option")
 
     print("\n----End of Output -----------------------------\n\n")
 
     input("Press Enter to continue ")
+
+

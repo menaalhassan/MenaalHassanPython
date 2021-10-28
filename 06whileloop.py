@@ -5,7 +5,6 @@ print("|    Name : Menaal Hassan                        |")
 print("|    Version : 01                                |")
 print("|                                                |")
 print(' -' + '-'*(46) + '-')
-i = 0
 while i == 0:
     name = input("What is the name of this subject ")
     if name == "IST":
