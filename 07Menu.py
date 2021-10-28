@@ -30,14 +30,14 @@ def option2():
     input("------> Program paused - press enter to continue")
     print("Goodbye World")
 
-def option3(name):
+def option3():
     print("Hello World")
-    input("What is your name ? ")
+    name = input("What is your name ? ")
     print("Goodbye " + name)  
  
-def option4(teacher_name):
+def option4():
     print("Hello World")
-    input("Teacher's name (try Mr Horan) ")
+    teacher_name = input("Teacher's name (try Mr Horan) ")
     print(teacher_name + " is an ok teacher")
 
 def option5():
@@ -91,9 +91,9 @@ while True:
         elif menu_option == '2':
             option2()
         elif menu_option == '3':
-            option3(name)
+            option3()
         elif menu_option == '4':
-           option4(teacher_name)
+           option4()
         elif menu_option == '5':
             option5()
         elif menu_option == '6':
