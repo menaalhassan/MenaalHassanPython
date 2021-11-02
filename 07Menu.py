@@ -52,7 +52,7 @@ def option6():
     while my_input != subject:
         my_input = input("What is the name of this subject ")
         if my_input == subject:
-            print("\nCongratulations!!")
+            print("\n\nCongratulations!!\n\n")
         else:
             print("Not Correct - try again")
 
@@ -81,7 +81,7 @@ while True:
     menu_option = input("Enter an option ")
     valid_options = ['1','2','3','4','5','6','7','8','9','x']
     
-    print("----Start of Output ---------------------------\n")
+    print("\n----Start of Output ---------------------------\n")
 
     if menu_option in valid_options:
         if menu_option.lower() == 'x': 
@@ -107,7 +107,7 @@ while True:
     else:
         print("invalid option")
 
-    print("\n----End of Output -----------------------------\n\n")
+    print("\n----End of Output -----------------------------\n\n\n")
 
     input("Press Enter to continue ")
 
