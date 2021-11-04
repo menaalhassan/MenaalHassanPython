@@ -1,6 +1,6 @@
 from random import choice
 
-words = ["hello", "there", "school", "food", "ist", "IST", "clothes"]
+words = ["hello", "there", "school", "food", "ist", "IST", "clothes", "eid", ""]
 
 chosen_word = choice(words)
 
@@ -9,7 +9,7 @@ displayed_word = '_' * len(chosen_word)
 
 print(displayed_word)
 
-TOTAL_ALLOWED_GUESS = 10
+TOTAL_ALLOWED_GUESS = 18
 
 for x in range(TOTAL_ALLOWED_GUESS):
     guess_letter = input("Guess a letter: ")
