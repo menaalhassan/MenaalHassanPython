@@ -1,3 +1,11 @@
+print(" ------------------------------------------------") 
+print("|                                                |")
+print("|                                                |")
+print("|    Welcome to a game of Hangman!!!             |")
+print("|                                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+
 from random import choice
 
 words = ["hello", "there", "school", "food", "ist", "IST", "clothes", "eid", ""]
