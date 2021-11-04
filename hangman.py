@@ -1,6 +1,6 @@
 from random import choice
 
-words = ["hello", "there", "school", "food"]
+words = ["hello", "there", "school", "food", "ist", "IST", "clothes"]
 
 chosen_word = choice(words)
 
